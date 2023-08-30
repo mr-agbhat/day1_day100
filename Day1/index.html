@@ -1,64 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-        /* element selector - all the h2 element tags in html file */
-        /* h2{
-            color : blue;
-        } */
-        /* class selector - all the elements that have starter header class are selected */
-        .starterheader{
-        
-        }
-        .downloadstarterbox{
-            border-radius: 10px;
-            border: 1px solid rgb(189, 187, 187);
-            height: 200px;
-            width: 500px; 
-            padding-left: 25px;
-        }
-        .buttonstater{
-            border: none;
-            border-radius: 15px;
-            padding: 10px 30px;
-            color: white;
-            background-color: blue;            
-        }
-        .button{
-            border:none ;
-            border-radius: 15px;
-            padding: 10px 30px;
-            color: white;
-            background-color: gray;  
-        }
-    </style>
-</head>
-<body>
-    <div>Day_1</div>
-    <br><br>
- 
-    <div class="downloadstarterbox">
-        <h2 class="starterheader">Download starter files</h2>
-        <p class="">Includes assets, JPG images of the design files, 
-            and a basic style guide. There’s also a README 
-            to help you get started.</p>
-        <button class="buttonstater">DOWNLOAD STARTER</button>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="main-box">
+      <div class="left-box">
+        <div class="downloadstarterbox">
+          <h2 class="starterheader">Download starter files</h2>
+          <p>
+            Includes assets, JPG images of the design files, and a basic style
+            guide. There’s also a README to help you get started.
+          </p>
+          <div class="button-left">
+            <button class="buttonstater">DOWNLOAD STARTER</button>
+          </div>
+        </div>
+      </div>
+      <div class="right-box">
+        <div class="downloadstarterbox">
+          <h2 class="starterheader">Download Design files</h2>
+          <p class="">
+            We have Sketch or Figma versions available. Using the design file
+            will help you build more accurate solutions.
+          </p>
+          <div class="button-right">
+            <button class="button">FIGMA</button>
+            <button class="button">SKETCH</button>
+          </div>
+          <div class="para">
+            <p>
+              Become a <a href="">PRO </a> member to get design file access.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <br><br>
-    
-    <div class="downloadstarterbox">
-        <h2 class="starterheader">Download Design files</h2>
-        <p class="">We have Sketch or Figma versions available. 
-            Using the design file will help 
-            you build more accurate solutions.</p>
-        <button class="button">FIGMA</button>
-        <button class="button">SKETCH</button>
-        <p>Become a <a href="">PRO </a> member to get design file access.</p>
-    </div>
-    
-</body>
+  </body>
 </html>
