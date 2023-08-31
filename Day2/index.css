@@ -1,38 +1,37 @@
-body{
-    background-color: rgb(209, 203, 203);
-    margin: 5%;
+body {
+  background-color: rgb(209, 203, 203);
+  margin: 5%;
 }
-.tittle{
-    text-align: center;
-    text-shadow: 5px 5px 5px rgb(197, 192, 192) ;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 6vh;
-    text-shadow: 5px 5px 10px red;
+.tittle {
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(197, 192, 192);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  text-shadow: 5px 5px 10px red;
 }
 
-img{
-    display: inline-block;
-    width: 100%;
-    box-shadow: 20px 20px 20px  black;
+img {
+  display: inline-block;
+  width: 100%;
+  box-shadow: 20px 20px 20px black;
 }
-.fewlines{
-    text-align: center;
-    font-size: 17px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
-
+.fewlines {
+  text-align: center;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
 }
-.about{
-    text-align: center;
-    font-size: 35px;
-    color: blue;
-    text-shadow: 5px 5px 10px black;
+.about {
+  text-align: center;
+  font-size: 35px;
+  color: blue;
+  text-shadow: 5px 5px 10px black;
 }
-.tribute{
-    background-color: antiquewhite;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 25px 25px;
-    margin: 11px;
-    margin-top: 50px;
-    box-shadow: 20px 20px 20px black;
+.tribute {
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px 25px;
+  margin: 11px;
+  margin-top: 50px;
+  box-shadow: 20px 20px 20px black;
 }
