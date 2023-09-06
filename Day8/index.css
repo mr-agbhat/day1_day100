@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main {
+  background-color: whitesmoke;
+  padding-left: 150px;
+}
+.side {
+  display: flex;
+  align-items: center;
+}
+.text-side {
+  margin: 0;
+  width: 500px;
+  height: 150px;
+  border: 2px solid rgb(70, 56, 56);
+  display: flex;
+  flex-direction: column;
+}
+.text-1 {
+  color: rgb(92, 92, 192);
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-2 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 12px;
+}
+.login-side {
+  margin: 0;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mail {
+  padding-right: 100px;
+  width: 300px;
+  height: 40px;
+}
+.password {
+  width: 300px;
+  height: 40px;
+}
+.log-in {
+  width: 450px;
+  height: 30px;
+}
+.forgot-password {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.line {
+  border-top: 2px solid black;
+}
+.new-account {
+  width: 400px;
+  height: 50px;
+}
+.page {
+  font-family: Arial, Helvetica, sans-serif;
+}
